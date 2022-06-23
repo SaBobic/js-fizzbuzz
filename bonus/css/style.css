@@ -1,0 +1,34 @@
+/* Reset */
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+    font-family: sans-serif;
+    background-color: #083B4C;
+}
+
+/* Cards */
+
+.my-card{
+    background-color: #1389B2;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.my-card.fizz{
+    background-color: #0BD6A1;
+}
+
+.my-card.buzz{
+    background-color: #FFD166;
+}
+
+.my-card.fizzbuzz{
+    background-color: #F0466F;
+}
